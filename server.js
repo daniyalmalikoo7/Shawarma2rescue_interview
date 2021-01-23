@@ -17,9 +17,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))
 
 
+app.use('/api/restaurants', restaurantRoute)
+
+
 
 mongoose.connect(process.env.DB_URL);
 
-app.use('/api/restaurants', restaurantRoute)
 
 app.listen(PORT, ()=> console.log(`running ong PORT ${PORT}`))

@@ -34,11 +34,19 @@ Router.post('/' ,async (req,res)=>{
 
 Router.get('/', async (req,res)=>{
     try{
+        console.log('hit')
         const restaurants = await Restaurant.find();
-
-        res.json({restaurants, success: true})
-    }catch(e){}
+   
+            res.json({restaurants, success: true})
+    }
+    
+    catch(e){
+        throw new Error('Unable to fetch');
+    }
 })
+
+
+
 
 
 
