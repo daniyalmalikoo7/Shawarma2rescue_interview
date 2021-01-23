@@ -1,0 +1,24 @@
+{
+  "name": "shawarma2rescue_interview",
+  "version": "1.0.0",
+  "description": "a simple interview geo location test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniyalmalikoo7/Shawarma2rescue_interview.git"
+  },
+  "author": "daniyalmalikoo7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniyalmalikoo7/Shawarma2rescue_interview/issues"
+  },
+  "homepage": "https://github.com/daniyalmalikoo7/Shawarma2rescue_interview#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13"
+  }
+}
